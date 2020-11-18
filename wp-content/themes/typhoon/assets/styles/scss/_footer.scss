@@ -1,0 +1,163 @@
+footer {
+   overflow: hidden;
+   z-index: 10;
+   position: relative;
+  .footwrap {
+    justify-content: space-between;
+    display: flex;
+    .footCol {
+      padding-left: 80px;
+      ul {
+        margin-left: 0px;
+        li {
+          width: 100%;
+          a {
+            color: $white;
+            padding-left: 0px;
+            line-height: 20px;
+            font-size: 16px;
+          }
+        }
+      }
+      .shopTogDrop, .moreTogDrop, .compTogDrop, .needTogDrop {
+         display: none;
+         padding-bottom: 20px;
+      }
+      .shopdown, .shopright,
+      .moredown, .moreright,
+      .compdown, .compright,
+      .needdown, .needright {
+        float: right;
+        color: $white;
+      }
+      .shopdown, .moredown, .compdown, .needdown { display: none; }
+      .footLine {
+        height: 1px;
+        width: 100%;
+        background: rgba(213, 213, 213, 0.3);
+        margin-bottom: 20px;
+      }
+    }
+    p, a { color: $white !important; }
+    .newsAndSocial {
+      min-width: 415px;
+      padding: 0px;
+      i {
+        margin-right: 10px;
+      }
+      .wpcf7-response-output {
+        // margin: 0px !important;
+        // color: $white !important;
+        // padding: 5px;
+        // margin-bottom: 30px !important;
+        display: none !important;
+      }
+    }
+    .footlogos {
+      // position: relative;
+      // top: -40px;
+      top: 0px;
+      right: 0px;
+      position: absolute;
+      img {
+        margin-right: 10px;
+        object-fit: contain;
+        height: 46px;
+      }
+    }
+    #info-footer {
+      position: relative;
+      z-index: 10;
+      padding-top: 30px;
+      li#menu-item-591 a { padding-left: 0px; }
+      a { font-size: 14px; padding: 0px 1rem; }
+    }
+  }
+}
+
+.creditBar {
+   overflow: hidden;
+   z-index: 10;
+   position: relative;
+  .barInner {
+    min-height: 42px;
+    display: flex;
+    align-items: center;
+    transition: 0.2s ease-in-out;
+    justify-content: space-between;
+    a {
+      font-size: 14px;
+      color: $white;
+      &:hover{
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  footer {
+    .footwrap {
+      .footCol {
+        padding-left: 0px;
+      }
+    }
+  }
+}
+
+@include breakpoint(large down) {
+
+}
+@include breakpoint(medium down) {
+  footer {
+    padding-top: 60px !important;
+    .footwrap {
+      #info-footer {
+        li a {
+          padding-left: 0px;
+        }
+      }
+      .newsAndSocial {
+        min-width: 1px;
+        margin-bottom: 30px;
+      }
+      .footlogos {
+        top: 0px;
+        justify-content: flex-start;
+        margin-top: 30px;
+        position: static;
+      }
+      #wpcf7-f304-o1 {
+        .grid-x { width: 100%; margin-bottom: 40px; }
+      }
+    }
+  }
+}
+
+@include breakpoint(small only) {
+  footer {
+    .footwrap {
+      ul#info-footer {
+        margin-top: 30px;
+        li {
+          width: 100%;
+          margin-bottom: 29px;
+        }
+      }
+    }
+  }
+  .creditBar .barInner {
+    flex-direction: column;
+    padding: 20px 0px;
+    align-items: flex-start;
+    p {
+      text-align: left;
+      .marL40 {
+        margin-left: 0px;
+        display: flex;
+        width: 100%;
+      }
+      &:first-child { margin-bottom: 15px; }
+    }
+  }
+}

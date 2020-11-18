@@ -1,0 +1,127 @@
+.heroSlider {
+  visibility: hidden;
+}
+.testimonials {
+  .nextButton {
+    position: absolute;
+    right: 0px;
+    // top: 45%;
+    top: calc(50% - 50px);
+    z-index: 100;
+  }
+  .prevButton {
+    position: absolute;
+    left: 0px;
+    // top: 45%;
+    top: calc(50% - 50px);
+    z-index: 100;
+  }
+  .testSlider {
+    visibility: hidden;
+    .innerBox {
+      padding: 0px 40px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      img { margin-bottom: 20px; }
+      .feedback p {
+        font-size: 32px;
+        line-height: 50px;
+        color: $dtext;
+      }
+    }
+  }
+}
+
+
+
+.projectSlider {
+  visibility: hidden;
+  margin-bottom: 0px;
+  .slick-track {
+    position: relative;
+    left: -330px;
+    cursor: url('../../assets/images/cursor.png'), auto;
+  }
+  .proimg img {
+    width: 480px;
+    height: 650px;
+    object-fit: cover;
+    object-position: cover;
+    margin-right: 30px;
+  }
+}
+.thinline {
+  width: 100%;
+  height: 1px;
+  background: #C2C2C2;
+  position: relative;
+  top: 2.5px;
+}
+.largeline { width: 150%; }
+.progress {
+  display: block;
+  width: 100%;
+  height: 1px;
+  overflow: hidden;
+  background-color: $none;
+  background-image: linear-gradient(to right, black, black);
+  background-repeat: no-repeat;
+  background-size: 0 100%;
+  transition: background-size .4s ease-in-out;
+  z-index: 100;
+  position: relative;
+}
+.pro
+
+//GLOBAL SETTINGS
+.slick-initialized .slick-slide {
+  outline: none !important;
+}
+.slick-slide {  outline: none !important; }
+.slick-initialized { visibility: visible !important; }
+.slick-dots {
+    background: $none;
+    width: 50%;
+    z-index: 1;
+    margin: auto;
+    li {
+      button {
+        &:before {
+          border-radius: 5rem;
+          background-color: $white !important;
+        }
+      }
+    }
+    li.slick-active {
+      button {
+        &:before {
+          border-radius: 5rem;
+          background-color: $orange !important;
+        }
+      }
+    }
+  }
+
+@include breakpoint(medium down) {
+
+}
+@include breakpoint(small only) {
+  .testimonials {
+    .nextButton {
+      right: 40%;
+      top: unset;
+      bottom: -40px;
+    }
+    .prevButton {
+      left: 40%;
+      top: unset;
+      bottom: -40px;
+    }
+    .testSlider .innerBox .feedback p {
+      font-size: 24px;
+      line-height: 34px;
+    }
+  }
+}

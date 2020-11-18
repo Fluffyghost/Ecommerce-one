@@ -1,0 +1,461 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Products Compare for WooCommerce\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-05-30 10:58+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.2.2; wp-5.2.1"
+
+#: templates/style_section.php:358
+msgid "\"Add to compare\" button"
+msgstr ""
+
+#: includes/compatibility/product_preview.php:8
+msgid "<strong>BeRocket</strong> Compare"
+msgstr ""
+
+#: main.php:289
+msgid ""
+"<strong>Please update all BeRocket plugins to the most recent version. "
+"Products Compare for WooCommerce is not working correctly with older "
+"versions.</strong>"
+msgstr ""
+
+#: main.php:1182
+msgid "Add To Cart Button"
+msgstr ""
+
+#: main.php:1060
+msgid "Add to compare button"
+msgstr ""
+
+#: main.php:1066
+msgid "Add to compare button if product added"
+msgstr ""
+
+#: main.php:537 main.php:538 templates/style_section.php:418
+msgid "Added"
+msgstr ""
+
+#: main.php:1029
+msgid "AddThis ID"
+msgstr ""
+
+#: main.php:1010
+msgid "After Add to cart button"
+msgstr ""
+
+#: main.php:1007
+msgid "After Image"
+msgstr ""
+
+#: main.php:1009
+msgid "After Price"
+msgstr ""
+
+#: main.php:1008
+msgid "After Title"
+msgstr ""
+
+#: main.php:1078
+msgid "Attribute text"
+msgstr ""
+
+#: templates/new-compare.php:333 templates/new-compare.php:410
+msgid "Attributes"
+msgstr ""
+
+#: main.php:1184 templates/new-compare.php:326 templates/new-compare.php:373
+msgid "Availability"
+msgstr ""
+
+#: main.php:1090
+msgid "Availability text"
+msgstr ""
+
+#: templates/style_section.php:10 templates/style_section.php:65
+msgid "Background"
+msgstr ""
+
+#: templates/style_section.php:118 templates/style_section.php:214
+#: templates/style_section.php:290 templates/style_section.php:364
+msgid "Background color"
+msgstr ""
+
+#: templates/style_section.php:119
+msgid "Background color for attributes with same value"
+msgstr ""
+
+#: main.php:1006
+msgid "Before all"
+msgstr ""
+
+#. Author of the plugin
+msgid "BeRocket"
+msgstr ""
+
+#: templates/style_section.php:5 templates/style_section.php:60
+msgid "Border color"
+msgstr ""
+
+#: templates/style_section.php:7 templates/style_section.php:62
+msgid "Border radius"
+msgstr ""
+
+#: templates/style_section.php:6 templates/style_section.php:61
+msgid "Border width"
+msgstr ""
+
+#: templates/style_section.php:162 templates/style_section.php:172
+msgid "Bottom"
+msgstr ""
+
+#: main.php:1002
+msgid "Button position"
+msgstr ""
+
+#: templates/style_section.php:209 templates/style_section.php:285
+#: templates/style_section.php:360
+msgid "Button type"
+msgstr ""
+
+#: main.php:985 templates/new-compare.php:273
+msgid "Clear compare list"
+msgstr ""
+
+#: templates/style_section.php:283
+msgid "Clear compare list button"
+msgstr ""
+
+#: templates/style_section.php:115
+msgid "Column minimum width"
+msgstr ""
+
+#: templates/selected_products.php:51
+msgid "Compare"
+msgstr ""
+
+#: templates/style_section.php:3
+msgid "Compare Button on Widgets"
+msgstr ""
+
+#: main.php:1015
+msgid "Compare Page"
+msgstr ""
+
+#: main.php:537 main.php:538
+msgid "Compare Product"
+msgstr ""
+
+#: main.php:993
+msgid "Compare template"
+msgstr ""
+
+#: main.php:1122
+msgid "Custom CSS"
+msgstr ""
+
+#: main.php:950
+msgid "Custom CSS/JavaScript"
+msgstr ""
+
+#: main.php:1084
+msgid "Custom taxonomies text"
+msgstr ""
+
+#: templates/new-compare.php:329 templates/new-compare.php:401
+msgid "Description"
+msgstr ""
+
+#: main.php:1096
+msgid "Description text"
+msgstr ""
+
+#: main.php:1104
+msgid "Disable Font Awesome"
+msgstr ""
+
+#: main.php:970
+msgid "Display button to hide/show attributes"
+msgstr ""
+
+#: main.php:986
+msgid "Display button to remove all products from compare"
+msgstr ""
+
+#: main.php:1108
+msgid ""
+"Don't load Font Awesome css files on site front end. Use it only if you "
+"don't use Font Awesome icons in widgets or your theme has Font Awesome."
+msgstr ""
+
+#: main.php:960
+msgid "Fast compare"
+msgstr ""
+
+#: includes/widget.php:59
+msgid "Fast compare to load compare table via AJAX"
+msgstr ""
+
+#: main.php:1115
+msgid "Font Awesome 4"
+msgstr ""
+
+#: main.php:1116
+msgid "Font Awesome 5"
+msgstr ""
+
+#: main.php:1111
+msgid "Font Awesome Version"
+msgstr ""
+
+#: templates/style_section.php:9 templates/style_section.php:64
+#: templates/style_section.php:213 templates/style_section.php:289
+#: templates/style_section.php:363
+msgid "Font color"
+msgstr ""
+
+#: templates/style_section.php:210 templates/style_section.php:286
+#: templates/style_section.php:361
+msgid "Font size"
+msgstr ""
+
+#: main.php:1036
+msgid "Full screen button on compare page"
+msgstr ""
+
+#: main.php:934
+msgid "General"
+msgstr ""
+
+#: main.php:976
+msgid "Hide attributes by default"
+msgstr ""
+
+#: main.php:967
+msgid "Hide attributes with same value"
+msgstr ""
+
+#: templates/style_section.php:207
+msgid "Hide attributes with same value button"
+msgstr ""
+
+#: main.php:342 templates/new-compare.php:270
+msgid "Hide attributes with same values"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://berocket.com"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://wordpress.org/plugins/products-compare-for-woocommerce/"
+msgstr ""
+
+#: main.php:1185 includes/widget.php:68
+msgid "Image"
+msgstr ""
+
+#: templates/style_section.php:116
+msgid "Image width"
+msgstr ""
+
+#: includes/widget.php:74
+msgid "Is ToolBar"
+msgstr ""
+
+#: main.php:1134
+msgid "JavaScript After products load"
+msgstr ""
+
+#: main.php:1146
+msgid "JavaScript After remove product"
+msgstr ""
+
+#: main.php:1128
+msgid "JavaScript Before products load"
+msgstr ""
+
+#: main.php:1140
+msgid "JavaScript Before remove product"
+msgstr ""
+
+#: templates/style_section.php:164 templates/style_section.php:174
+msgid "Left"
+msgstr ""
+
+#: templates/style_section.php:220 templates/style_section.php:296
+#: templates/style_section.php:370
+msgid "Normal"
+msgstr ""
+
+#: templates/style_section.php:248 templates/style_section.php:324
+#: templates/style_section.php:395
+msgid "On mouse over"
+msgstr ""
+
+#: main.php:961
+msgid "Open compare table via AJAX on same page"
+msgstr ""
+
+#: templates/new-compare.php:340 templates/new-compare.php:420
+msgid "Other attributes"
+msgstr ""
+
+#: templates/style_section.php:212 templates/style_section.php:288
+msgid "Padding from bottom"
+msgstr ""
+
+#: templates/style_section.php:211 templates/style_section.php:287
+msgid "Padding from top"
+msgstr ""
+
+#: templates/style_section.php:151
+msgid "Padding outside"
+msgstr ""
+
+#: templates/style_section.php:152
+msgid "Padding outside full size"
+msgstr ""
+
+#: templates/style_section.php:117
+msgid "Padding top"
+msgstr ""
+
+#. Description of the plugin
+msgid "Plugin for WooCommerce which compare products"
+msgstr ""
+
+#: main.php:938
+msgid "Popup Templates"
+msgstr ""
+
+#: main.php:1181
+msgid "Price"
+msgstr ""
+
+#: main.php:50
+msgid "Products Compare"
+msgstr ""
+
+#. Name of the plugin
+#: main.php:49
+msgid "Products Compare for WooCommerce"
+msgstr ""
+
+#: templates/selected_products.php:13
+msgid "Products For Compare"
+msgstr ""
+
+#: main.php:1022
+msgid "Remove compare table"
+msgstr ""
+
+#: main.php:1023
+msgid "Remove compare table on \"Compare page\""
+msgstr ""
+
+#: templates/style_section.php:166 templates/style_section.php:176
+msgid "Right"
+msgstr ""
+
+#: templates/style_section.php:153
+msgid "Same value from attributes"
+msgstr ""
+
+#: templates/style_section.php:154
+msgid "Same value from attributes on mouse over"
+msgstr ""
+
+#: main.php:1164
+msgid "Select attributes that will be displayed on compare table"
+msgstr ""
+
+#: main.php:1183
+msgid "Short Description"
+msgstr ""
+
+#: main.php:343 templates/new-compare.php:270
+msgid "Show attributes with same values"
+msgstr ""
+
+#: templates/style_section.php:8 templates/style_section.php:63
+msgid "Size"
+msgstr ""
+
+#: main.php:997
+msgid "Static CSS Build"
+msgstr ""
+
+#: main.php:942
+msgid "Style"
+msgstr ""
+
+#: templates/style_section.php:113
+msgid "Table"
+msgstr ""
+
+#: main.php:946 includes/widget.php:69
+msgid "Text"
+msgstr ""
+
+#: main.php:1072
+msgid "Text on button for toolbar open"
+msgstr ""
+
+#: main.php:1054
+msgid "Text on compare button"
+msgstr ""
+
+#: templates/style_section.php:23 templates/style_section.php:26
+#: templates/style_section.php:29 templates/style_section.php:78
+#: templates/style_section.php:81 templates/style_section.php:84
+#: templates/style_section.php:125 templates/style_section.php:128
+#: templates/style_section.php:131 templates/style_section.php:161
+#: templates/style_section.php:163 templates/style_section.php:165
+#: templates/style_section.php:167 templates/style_section.php:171
+#: templates/style_section.php:173 templates/style_section.php:175
+#: templates/style_section.php:177 templates/style_section.php:223
+#: templates/style_section.php:226 templates/style_section.php:229
+#: templates/style_section.php:251 templates/style_section.php:299
+#: templates/style_section.php:302 templates/style_section.php:305
+#: templates/style_section.php:327 templates/style_section.php:373
+#: templates/style_section.php:376 templates/style_section.php:398
+#: templates/style_section.php:421
+msgid "Theme Default"
+msgstr ""
+
+#: templates/style_section.php:58
+msgid "Toolbar Button"
+msgstr ""
+
+#: templates/style_section.php:160 templates/style_section.php:170
+msgid "Top"
+msgstr ""
+
+#: main.php:1163
+msgid "Uses Attributes"
+msgstr ""
+
+#: main.php:1119
+msgid ""
+"Version of Font Awesome that will be used on front end. Please select "
+"version that you have in your theme"
+msgstr ""
+
+#: templates/style_section.php:362
+msgid "Width"
+msgstr ""
+
+#: main.php:1030
+msgid "Your ID from AddThis site"
+msgstr ""

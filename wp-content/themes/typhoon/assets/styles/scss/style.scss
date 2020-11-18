@@ -1,0 +1,41 @@
+@import "settings";
+
+// Import foundation.scss from vendor files
+@import "../../../node_modules/foundation-sites/scss/foundation";
+
+// @import "../../../node_modules/motion-ui/src/motion-ui";
+// @include motion-ui-transitions;
+// @include motion-ui-animations;
+
+// Select the components you want to use
+@include foundation-global-styles;
+@include foundation-xy-grid-classes;
+@include foundation-flex-classes;
+@include foundation-typography;
+@include foundation-accordion;
+@include foundation-accordion-menu;
+@include foundation-menu;
+@include foundation-menu-icon;
+@include foundation-dropdown;
+@include foundation-dropdown-menu;
+@include foundation-drilldown-menu;
+@include foundation-responsive-embed;
+@include foundation-pagination;
+@include foundation-visibility-classes;
+@include foundation-off-canvas;
+@include foundation-media-object;
+@include foundation-reveal;
+@include foundation-sticky;
+
+// @include foundation-float-classes;
+
+// Import your custom styles
+@import "global";
+@import "header";
+@import "slider";
+@import "sections";
+@import "posts";
+@import "woo";
+@import "login";
+@import "offcanvas";
+@import "footer";

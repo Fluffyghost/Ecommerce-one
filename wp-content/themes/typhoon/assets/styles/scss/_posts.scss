@@ -1,0 +1,544 @@
+.teamBanner {
+  overflow: hidden;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 460px;
+  .bannerOverlay {
+    background-color: rgba(0,0,0,0.2);
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+  }
+  .bannerWrap {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    height: 460px;
+    margin: auto;
+    .innerwrap {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+  }
+}
+.teamArchive {
+  .teamRider {
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center !important;
+    // height: 480px;
+    margin-bottom: 30px;
+    overflow: hidden;
+    .overlay {
+      // background-image: linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.5), rgba(0,0,0,1));
+      background-image: linear-gradient( transparent, black );
+      height: 100vh;
+      width: 100%;
+      position: absolute;
+      z-index: 1;
+    }
+    .innerBox {
+      display: flex;
+      justify-content: flex-end;
+      flex-direction: column;
+      transition: 0.2s ease-out;
+      // height: 400px;
+      padding: 80% 30px 30px 30px;
+      position: relative;
+      z-index: 2;
+    }
+    .profBox {
+      border-top: $white 1px solid;
+      padding: 30px;
+      transition: 0.2s ease-out;
+      height: 80px;
+      position: relative;
+      z-index: 2;
+      display: flex;
+      font-size: 16px;
+      a {
+        height: 80px;
+        width: 100%;
+      }
+      a:hover { color: $white; }
+    }
+    &:hover {
+      .innerBox {
+        background: rgba(255, 255, 255, 0.5);
+      }
+      .profBox {
+        background: $orange;
+        border-color: $orange;
+      }
+    }
+  }
+}
+.teamSingle {
+  .sepTeamBanner {
+    overflow: hidden;
+    background-position: top center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    width: 100%;
+    height: 650px;
+    .bannerOverlay {
+      background-color: rgba(0,0,0,0.2);
+      height: 100vh;
+      width: 100%;
+      position: absolute;
+      z-index: 1;
+    }
+    .bannerWrap {
+      position: relative;
+      z-index: 2;
+      display: flex;
+      height: 630px;
+      align-items: center;
+      margin: auto;
+      .innerwrap {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        .socialWrap {
+          display: flex;
+          align-items: center;
+          justify-content: space-evenly;
+          max-width: 170px;
+          margin: auto;
+          i {
+            font-size: 30px;
+            transition: 0.2s ease-out;
+            &:hover {
+              color: $orange;
+            }
+          }
+        }
+      }
+    }
+  }
+  article {
+    p {
+      max-width: 860px;
+      margin: 30px auto;
+    }
+    img {
+      max-width: 1150px;
+      width: 100%;
+      height: 600px;
+      margin: 80px auto;
+      display: block;
+    }
+  }
+}
+.mobileRider {
+  padding: 15px;
+  .rider img {
+    border-radius: 5rem;
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+  }
+  .material-icons {
+    position: absolute;
+    right: 0px;
+    top: 20px;
+  }
+  .h3 { font-size: 20px; }
+}
+.bannerSignup {
+  max-width: 485px;
+  margin: auto;
+  .terms {
+    position: relative;
+    top: -10px;
+  }
+  .wpcf7-form .wpcf7-not-valid-tip { text-align: left; }
+  .wpcf7-response-output {
+    padding: 0px !important;
+    width: 100%;
+    color: white;
+    margin: 0px !important;
+    margin-bottom: 20px !important;
+  }
+}
+.newsArchive {
+  .blogBox {
+    img {
+      width: 100%;
+      height: 340px;
+    }
+    .innerBox {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  .mainFeatured {
+    img {
+      width: 100%;
+      height: 630px;
+    }
+    .innerBox {
+      padding: 100px;
+      .dot {
+        font-size: 20px;
+        margin: 0px 10px;
+      }
+    }
+  }
+}
+.singleNews {
+  .newsHeader {
+    .orange {
+      margin: auto;
+      display: block;
+    }
+    h1 {
+      margin-top: 8px;
+    }
+  }
+  .newsContent {
+    max-width: 780px;
+    margin: auto;
+    .text_block {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      max-width: 780px;
+      margin: auto;
+      img, .wp-block-embed-youtube {
+        margin: 80px 0px;
+      }
+    }
+    img {
+      width: 100%;
+      height: 510px;
+    }
+    .mainImg { margin-bottom: 80px; }
+    h2,h3,h4 {
+      color: $dtext;
+    }
+    p, ul, ol, {
+      max-width: 785px;
+    }
+    ul, ol {
+      margin: 40px 0px 0px 40px;
+    }
+  }
+  .sharePost {
+    display: flex;
+    flex-direction: column;
+    .shareicon  {
+      width: 38px;
+      height: 38px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 10px;
+      border-radius: 0.2rem;
+      &:last-child { margin-bottom: 0px;}
+      i { color: $white; }
+    }
+    .twit { background-color: #00acee; }
+    .face { background-color: #3b5998; }
+    .linked { background-color: #0e76a8; }
+  }
+}
+.eventsArchive {
+  .eventBox {
+    img {
+      width: 100%;
+      height: 340px;
+    }
+    .innerBox {
+      background: $white;
+      padding: 30px;
+      display: flex;
+      flex-direction: column;
+      min-height: 200px;
+    }
+  }
+}
+.stockistArchive {
+  .stockHWrap {
+    display: flex;
+    .dropDown {
+      .postdropdown {
+        max-width: 545px;
+        .orangeB {
+          height: 50px;
+        }
+      }
+    }
+  }
+  .stockBox {
+    padding: 40px 25px;
+    border: 1px solid #D5D5D5;
+  }
+  .catBox .accordion-menu .nested.is-accordion-submenu {
+    left: -1px;
+    width: 100.5%;
+  }
+}
+
+
+ul.postcats {
+  border-bottom: 1px solid #d5d5d5;
+  margin-left: 0px;
+  display: inline-flex;
+  justify-content: center;
+  padding: 30px 0px 0px 0px;
+  width: 100%;
+  li {
+    list-style: none;
+    margin-right: 40px;
+    position: relative;
+    top: 1px;
+    padding-bottom: 30px;
+    &:last-child { margin-right: 0px; }
+    a {
+      color: $dtext;
+      font-size: 16px;
+    }
+  }
+  .active {
+    border-bottom: 1px solid $orange;
+  }
+}
+.archiveCat, .eventsArchive  {
+  li.cat_0 {
+    border-bottom: 1px solid $orange;
+  }
+}
+.catBox {
+  height: 67px;
+  display: flex;
+  align-items: center;
+  color: $dtext;
+
+  select {
+    width: 100%;
+    background: $white;
+    height: 50px;
+    border: 1px solid #bababa;
+    line-height: inherit;
+    background-repeat: no-repeat;
+    background-position: 99% 52%;
+    padding: 0px 15px;
+  }
+
+  // .accordion-menu .nested.is-accordion-submenu {
+  //   background: #fff;
+  //   border: 1px solid #bababa;
+  //   border-top: 0;
+  //   width: 100.2%;
+  //   margin-left: 0;
+  //   position: relative;
+  //   top: -4px;
+  //   left: -0.1%;
+  //   z-index: 10;
+  //   padding: 26px 22px;
+  //   a { padding: 0px; margin-bottom: 25px; color: $dtext;}
+  // }
+  // .accordion-menu .is-accordion-submenu-parent:not(.has-submenu-toggle)>a:after {
+  //   border-color: transparent transparent transparent !important;
+  //   right: 10px !important;
+  //   top: 20px;
+  //   content: ""
+  // }
+  .catup, .catdown {
+    float: right;
+    font-size: 14px;
+  }
+  .catup { display: none; }
+}
+
+.sizeCharts {
+  .page-navigation {
+    margin-top: 0px;
+  }
+}
+.page-navigation {
+  margin: 70px 0px;
+  width: 100%;
+  .pagination {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    .current {
+      font-size: 16px;
+      height: 42px;
+      width: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 0.3rem
+    }
+    a {
+      font-size: 16px;
+      height: 42px;
+      width: 40px;
+      align-items: center;
+      display: flex;
+      justify-content: center;
+      &:hover {
+        background: $none;
+      }
+    }
+    .next {
+      font-size: 0px;
+      &:after {
+        content: "keyboard_arrow_right";
+        font-family: 'Material Icons';
+        font-weight: 700;
+        color: $text;
+        font-size: 24px;
+        font-weight: 400;
+      }
+    }
+    .prev {
+      font-size: 0px;
+      &:after {
+        content: "keyboard_arrow_left";
+        font-family: 'Material Icons';
+        font-weight: 700;
+        color: $text;
+        font-size: 24px;
+        font-weight: 400;
+      }
+    }
+  }
+}
+
+#breadcrumbs {
+  margin-bottom: 0px;
+  .material-icons {
+    position: relative;
+    top: 5px;
+    font-size: 20px;
+    color: #6C6C6C;
+  }
+  .breadcrumb_last {
+    color: #6C6C6C;
+  }
+  a { color: #6C6C6C; }
+}
+// .relcrumbs {
+//   top: -20px;
+// }
+.whitecrumbs {
+  position: relative;
+  z-index: 10;
+  margin-bottom: 0px;
+  a, .breadcrumb_last, .material-icons { color: $white !important; }
+}
+.storeBread {
+  position: relative;
+  top: 140px;
+}
+.woocommerce-breadcrumb {
+  display: flex;
+  .material-icons {
+    position: relative;
+    top: 5px;
+    font-size: 20px;
+  }
+}
+
+@include breakpoint(medium down) {
+  .storeBread {
+    top: 80px;
+  }
+  #breadcrumbs {
+    font-size: 14px;
+  }
+  .newsArchive {
+    .mainFeatured {
+      margin-bottom: 30px;
+      img {
+        height: 200px;
+      }
+      .innerBox {
+        padding: 30px 0px;
+        .h1 {
+          font-size: 26px;
+        }
+      }
+    }
+    .blogBox {
+      img {
+        height: 200px;
+      }
+      .hugep { font-size: 18px; }
+    }
+  }
+  .singleNews {
+    .newsContent {
+      .mainImg { margin-bottom: 60px; }
+      img {
+        height: 250px;
+      }
+      .text_block {
+        .wp-block-embed-youtube, img {
+          margin: 60px 0px;
+        }
+      }
+    }
+  }
+  .eventsArchive .eventBox img {
+    height: 200px;
+  }
+  .stockistArchive {
+    .stockHWrap {
+       .dropDown {
+         order: 2;
+         .postdropdown {
+           max-width: none;
+           .orangeB { margin-left: 0px; }
+         }
+       }
+       .stockB {
+         order: 1;
+         .orangeB {
+           width: 100%;
+           margin-bottom: 40px;
+         }
+       }
+    }
+  }
+}
+@include breakpoint(small only) {
+  .teamSingle {
+    .pad70 {
+      padding: 60px 0px 0px 0px;
+    }
+    .sepTeamBanner {
+      height: 460px;
+      .bannerWrap {
+        height: 460px;
+      }
+    }
+    article {
+      img {
+        height: 250px;
+      }
+    }
+  }
+  .stockistArchive .catBox .accordion-menu .nested.is-accordion-submenu {
+    width: 100.6%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .newsArchive {
+    .small-6 {
+      width: calc(100% - 1.25rem) !important;
+    }
+  }
+}

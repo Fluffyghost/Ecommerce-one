@@ -1,0 +1,19 @@
+2020-08-26T07:54:40+00:00 CRITICAL syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /Users/sadiehewitt/Dev/hindsite/wp-content/themes/hindsite/woocommerce/myaccount/dashboard.php on line 59
+
+2020-08-26T07:55:29+00:00 CRITICAL Uncaught Error: Call to undefined function get_current_user_name() in /Users/sadiehewitt/Dev/hindsite/wp-content/themes/hindsite/woocommerce/myaccount/dashboard.php:61
+Stack trace:
+#0 /Users/sadiehewitt/Dev/hindsite/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include()
+#1 /Users/sadiehewitt/Dev/hindsite/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3080): wc_get_template('myaccount/dashb...', Array)
+#2 /Users/sadiehewitt/Dev/hindsite/wp-includes/class-wp-hook.php(287): woocommerce_account_content('')
+#3 /Users/sadiehewitt/Dev/hindsite/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#4 /Users/sadiehewitt/Dev/hindsite/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#5 /Users/sadiehewitt/Dev/hindsite/wp-content/plugins/woocommerce/templates/myaccount/my-account.php(34): do_action('woocommerce_acc...')
+#6 /Users/sadiehewitt/Dev/hindsite/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include('/Users/sadiehew...')
+#7 /Us in /Users/sadiehewitt/Dev/hindsite/wp-content/themes/hindsite/woocommerce/myaccount/dashboard.php on line 61
+
+2020-08-26T08:16:50+00:00 CRITICAL syntax error, unexpected ')' in /Users/sadiehewitt/Dev/hindsite/wp-content/themes/hindsite/functions.php on line 209
+
+2020-08-26T11:25:38+00:00 CRITICAL syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /Users/sadiehewitt/Dev/hindsite/wp-content/themes/hindsite/parts/orangeppe-coursebanner.php on line 37
+
+2020-08-26T14:54:30+00:00 CRITICAL syntax error, unexpected end of file in /Users/sadiehewitt/Dev/hindsite/wp-content/themes/hindsite/woocommerce/myaccount/form-login.php on line 35
+

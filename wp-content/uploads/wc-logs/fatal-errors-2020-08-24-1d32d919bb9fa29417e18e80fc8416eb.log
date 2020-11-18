@@ -1,0 +1,264 @@
+2020-08-24T09:38:54+00:00 CRITICAL Uncaught Error: Object of class WP_Term could not be converted to string in /Users/sadiehewitt/Dev/hindsite/wp-content/themes/hindsite/woocommerce/archive-ppe.php:30
+Stack trace:
+#0 /Users/sadiehewitt/Dev/hindsite/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include()
+#1 /Users/sadiehewitt/Dev/hindsite/wp-content/themes/hindsite/woocommerce/archive-product.php(36): wc_get_template('archive-ppe.php')
+#2 /Users/sadiehewitt/Dev/hindsite/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include('/Users/sadiehew...')
+#3 /Users/sadiehewitt/Dev/hindsite/wp-content/plugins/woocommerce/templates/taxonomy-product_cat.php(22): wc_get_template('archive-product...')
+#4 /Users/sadiehewitt/Dev/hindsite/wp-includes/template-loader.php(106): include('/Users/sadiehew...')
+#5 /Users/sadiehewitt/Dev/hindsite/wp-blog-header.php(19): require_once('/Users/sadiehew...')
+#6 /Users/sadiehewitt/Dev/hindsite/index.php(17): require('/Users/sadiehew...')
+#7 {main}
+  thrown in /Users/sadiehewitt/Dev/hindsite/wp-content/themes/hindsite/woocommerce/archive-ppe.php on line 30
+
+2020-08-24T09:41:17+00:00 CRITICAL syntax error, unexpected 'endif' (T_ENDIF) in /Users/sadiehewitt/Dev/hindsite/wp-content/themes/hindsite/woocommerce/archive-ppe.php on line 41
+
+2020-08-24T09:41:22+00:00 CRITICAL syntax error, unexpected 'endif' (T_ENDIF) in /Users/sadiehewitt/Dev/hindsite/wp-content/themes/hindsite/woocommerce/archive-ppe.php on line 41
+
+2020-08-24T09:51:35+00:00 CRITICAL Uncaught Error: Object of class WP_Term could not be converted to string in /Users/sadiehewitt/Dev/hindsite/wp-content/themes/hindsite/woocommerce/archive-ppe.php:38
+Stack trace:
+#0 /Users/sadiehewitt/Dev/hindsite/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include()
+#1 /Users/sadiehewitt/Dev/hindsite/wp-content/themes/hindsite/woocommerce/archive-product.php(36): wc_get_template('archive-ppe.php')
+#2 /Users/sadiehewitt/Dev/hindsite/wp-includes/template-loader.php(106): include('/Users/sadiehew...')
+#3 /Users/sadiehewitt/Dev/hindsite/wp-blog-header.php(19): require_once('/Users/sadiehew...')
+#4 /Users/sadiehewitt/Dev/hindsite/index.php(17): require('/Users/sadiehew...')
+#5 {main}
+  thrown in /Users/sadiehewitt/Dev/hindsite/wp-content/themes/hindsite/woocommerce/archive-ppe.php on line 38
+
+2020-08-24T09:51:38+00:00 CRITICAL Uncaught Error: Object of class WP_Term could not be converted to string in /Users/sadiehewitt/Dev/hindsite/wp-content/themes/hindsite/woocommerce/archive-ppe.php:38
+Stack trace:
+#0 /Users/sadiehewitt/Dev/hindsite/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include()
+#1 /Users/sadiehewitt/Dev/hindsite/wp-content/themes/hindsite/woocommerce/archive-product.php(36): wc_get_template('archive-ppe.php')
+#2 /Users/sadiehewitt/Dev/hindsite/wp-includes/template-loader.php(106): include('/Users/sadiehew...')
+#3 /Users/sadiehewitt/Dev/hindsite/wp-blog-header.php(19): require_once('/Users/sadiehew...')
+#4 /Users/sadiehewitt/Dev/hindsite/index.php(17): require('/Users/sadiehew...')
+#5 {main}
+  thrown in /Users/sadiehewitt/Dev/hindsite/wp-content/themes/hindsite/woocommerce/archive-ppe.php on line 38
+
+2020-08-24T09:51:59+00:00 CRITICAL Uncaught Error: Object of class WP_Term could not be converted to string in /Users/sadiehewitt/Dev/hindsite/wp-content/themes/hindsite/woocommerce/archive-ppe.php:38
+Stack trace:
+#0 /Users/sadiehewitt/Dev/hindsite/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include()
+#1 /Users/sadiehewitt/Dev/hindsite/wp-content/themes/hindsite/woocommerce/archive-product.php(36): wc_get_template('archive-ppe.php')
+#2 /Users/sadiehewitt/Dev/hindsite/wp-includes/template-loader.php(106): include('/Users/sadiehew...')
+#3 /Users/sadiehewitt/Dev/hindsite/wp-blog-header.php(19): require_once('/Users/sadiehew...')
+#4 /Users/sadiehewitt/Dev/hindsite/index.php(17): require('/Users/sadiehew...')
+#5 {main}
+  thrown in /Users/sadiehewitt/Dev/hindsite/wp-content/themes/hindsite/woocommerce/archive-ppe.php on line 38
+
+2020-08-24T09:52:04+00:00 CRITICAL Uncaught Error: Object of class WP_Term could not be converted to string in /Users/sadiehewitt/Dev/hindsite/wp-content/themes/hindsite/woocommerce/archive-ppe.php:38
+Stack trace:
+#0 /Users/sadiehewitt/Dev/hindsite/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include()
+#1 /Users/sadiehewitt/Dev/hindsite/wp-content/themes/hindsite/woocommerce/archive-product.php(36): wc_get_template('archive-ppe.php')
+#2 /Users/sadiehewitt/Dev/hindsite/wp-includes/template-loader.php(106): include('/Users/sadiehew...')
+#3 /Users/sadiehewitt/Dev/hindsite/wp-blog-header.php(19): require_once('/Users/sadiehew...')
+#4 /Users/sadiehewitt/Dev/hindsite/index.php(17): require('/Users/sadiehew...')
+#5 {main}
+  thrown in /Users/sadiehewitt/Dev/hindsite/wp-content/themes/hindsite/woocommerce/archive-ppe.php on line 38
+
+2020-08-24T09:52:19+00:00 CRITICAL Uncaught Error: Object of class WP_Term could not be converted to string in /Users/sadiehewitt/Dev/hindsite/wp-content/themes/hindsite/woocommerce/archive-ppe.php:38
+Stack trace:
+#0 /Users/sadiehewitt/Dev/hindsite/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include()
+#1 /Users/sadiehewitt/Dev/hindsite/wp-content/themes/hindsite/woocommerce/archive-product.php(36): wc_get_template('archive-ppe.php')
+#2 /Users/sadiehewitt/Dev/hindsite/wp-includes/template-loader.php(106): include('/Users/sadiehew...')
+#3 /Users/sadiehewitt/Dev/hindsite/wp-blog-header.php(19): require_once('/Users/sadiehew...')
+#4 /Users/sadiehewitt/Dev/hindsite/index.php(17): require('/Users/sadiehew...')
+#5 {main}
+  thrown in /Users/sadiehewitt/Dev/hindsite/wp-content/themes/hindsite/woocommerce/archive-ppe.php on line 38
+
+2020-08-24T09:52:25+00:00 CRITICAL Uncaught Error: Object of class WP_Term could not be converted to string in /Users/sadiehewitt/Dev/hindsite/wp-content/themes/hindsite/woocommerce/archive-ppe.php:36
+Stack trace:
+#0 /Users/sadiehewitt/Dev/hindsite/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include()
+#1 /Users/sadiehewitt/Dev/hindsite/wp-content/themes/hindsite/woocommerce/archive-product.php(36): wc_get_template('archive-ppe.php')
+#2 /Users/sadiehewitt/Dev/hindsite/wp-includes/template-loader.php(106): include('/Users/sadiehew...')
+#3 /Users/sadiehewitt/Dev/hindsite/wp-blog-header.php(19): require_once('/Users/sadiehew...')
+#4 /Users/sadiehewitt/Dev/hindsite/index.php(17): require('/Users/sadiehew...')
+#5 {main}
+  thrown in /Users/sadiehewitt/Dev/hindsite/wp-content/themes/hindsite/woocommerce/archive-ppe.php on line 36
+
+2020-08-24T09:52:52+00:00 CRITICAL Uncaught Error: Object of class WP_Term could not be converted to string in /Users/sadiehewitt/Dev/hindsite/wp-content/themes/hindsite/woocommerce/archive-ppe.php:38
+Stack trace:
+#0 /Users/sadiehewitt/Dev/hindsite/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include()
+#1 /Users/sadiehewitt/Dev/hindsite/wp-content/themes/hindsite/woocommerce/archive-product.php(36): wc_get_template('archive-ppe.php')
+#2 /Users/sadiehewitt/Dev/hindsite/wp-includes/template-loader.php(106): include('/Users/sadiehew...')
+#3 /Users/sadiehewitt/Dev/hindsite/wp-blog-header.php(19): require_once('/Users/sadiehew...')
+#4 /Users/sadiehewitt/Dev/hindsite/index.php(17): require('/Users/sadiehew...')
+#5 {main}
+  thrown in /Users/sadiehewitt/Dev/hindsite/wp-content/themes/hindsite/woocommerce/archive-ppe.php on line 38
+
+2020-08-24T09:53:03+00:00 CRITICAL Uncaught Error: Object of class WP_Term could not be converted to string in /Users/sadiehewitt/Dev/hindsite/wp-content/themes/hindsite/woocommerce/archive-ppe.php:38
+Stack trace:
+#0 /Users/sadiehewitt/Dev/hindsite/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include()
+#1 /Users/sadiehewitt/Dev/hindsite/wp-content/themes/hindsite/woocommerce/archive-product.php(36): wc_get_template('archive-ppe.php')
+#2 /Users/sadiehewitt/Dev/hindsite/wp-includes/template-loader.php(106): include('/Users/sadiehew...')
+#3 /Users/sadiehewitt/Dev/hindsite/wp-blog-header.php(19): require_once('/Users/sadiehew...')
+#4 /Users/sadiehewitt/Dev/hindsite/index.php(17): require('/Users/sadiehew...')
+#5 {main}
+  thrown in /Users/sadiehewitt/Dev/hindsite/wp-content/themes/hindsite/woocommerce/archive-ppe.php on line 38
+
+2020-08-24T09:54:12+00:00 CRITICAL Uncaught Error: Object of class WP_Term could not be converted to string in /Users/sadiehewitt/Dev/hindsite/wp-content/themes/hindsite/woocommerce/archive-ppe.php:38
+Stack trace:
+#0 /Users/sadiehewitt/Dev/hindsite/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include()
+#1 /Users/sadiehewitt/Dev/hindsite/wp-content/themes/hindsite/woocommerce/archive-product.php(36): wc_get_template('archive-ppe.php')
+#2 /Users/sadiehewitt/Dev/hindsite/wp-includes/template-loader.php(106): include('/Users/sadiehew...')
+#3 /Users/sadiehewitt/Dev/hindsite/wp-blog-header.php(19): require_once('/Users/sadiehew...')
+#4 /Users/sadiehewitt/Dev/hindsite/index.php(17): require('/Users/sadiehew...')
+#5 {main}
+  thrown in /Users/sadiehewitt/Dev/hindsite/wp-content/themes/hindsite/woocommerce/archive-ppe.php on line 38
+
+2020-08-24T09:55:33+00:00 CRITICAL Uncaught Error: Object of class WP_Term could not be converted to string in /Users/sadiehewitt/Dev/hindsite/wp-content/themes/hindsite/woocommerce/archive-ppe.php:38
+Stack trace:
+#0 /Users/sadiehewitt/Dev/hindsite/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include()
+#1 /Users/sadiehewitt/Dev/hindsite/wp-content/themes/hindsite/woocommerce/archive-product.php(36): wc_get_template('archive-ppe.php')
+#2 /Users/sadiehewitt/Dev/hindsite/wp-includes/template-loader.php(106): include('/Users/sadiehew...')
+#3 /Users/sadiehewitt/Dev/hindsite/wp-blog-header.php(19): require_once('/Users/sadiehew...')
+#4 /Users/sadiehewitt/Dev/hindsite/index.php(17): require('/Users/sadiehew...')
+#5 {main}
+  thrown in /Users/sadiehewitt/Dev/hindsite/wp-content/themes/hindsite/woocommerce/archive-ppe.php on line 38
+
+2020-08-24T09:55:47+00:00 CRITICAL Uncaught Error: Object of class WP_Term could not be converted to string in /Users/sadiehewitt/Dev/hindsite/wp-content/themes/hindsite/woocommerce/archive-ppe.php:38
+Stack trace:
+#0 /Users/sadiehewitt/Dev/hindsite/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include()
+#1 /Users/sadiehewitt/Dev/hindsite/wp-content/themes/hindsite/woocommerce/archive-product.php(36): wc_get_template('archive-ppe.php')
+#2 /Users/sadiehewitt/Dev/hindsite/wp-includes/template-loader.php(106): include('/Users/sadiehew...')
+#3 /Users/sadiehewitt/Dev/hindsite/wp-blog-header.php(19): require_once('/Users/sadiehew...')
+#4 /Users/sadiehewitt/Dev/hindsite/index.php(17): require('/Users/sadiehew...')
+#5 {main}
+  thrown in /Users/sadiehewitt/Dev/hindsite/wp-content/themes/hindsite/woocommerce/archive-ppe.php on line 38
+
+2020-08-24T09:56:09+00:00 CRITICAL Uncaught Error: Object of class WP_Term could not be converted to string in /Users/sadiehewitt/Dev/hindsite/wp-content/themes/hindsite/woocommerce/archive-ppe.php:38
+Stack trace:
+#0 /Users/sadiehewitt/Dev/hindsite/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include()
+#1 /Users/sadiehewitt/Dev/hindsite/wp-content/themes/hindsite/woocommerce/archive-product.php(36): wc_get_template('archive-ppe.php')
+#2 /Users/sadiehewitt/Dev/hindsite/wp-includes/template-loader.php(106): include('/Users/sadiehew...')
+#3 /Users/sadiehewitt/Dev/hindsite/wp-blog-header.php(19): require_once('/Users/sadiehew...')
+#4 /Users/sadiehewitt/Dev/hindsite/index.php(17): require('/Users/sadiehew...')
+#5 {main}
+  thrown in /Users/sadiehewitt/Dev/hindsite/wp-content/themes/hindsite/woocommerce/archive-ppe.php on line 38
+
+2020-08-24T09:57:21+00:00 CRITICAL Uncaught Error: Object of class WP_Term could not be converted to string in /Users/sadiehewitt/Dev/hindsite/wp-content/themes/hindsite/woocommerce/archive-ppe.php:38
+Stack trace:
+#0 /Users/sadiehewitt/Dev/hindsite/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include()
+#1 /Users/sadiehewitt/Dev/hindsite/wp-content/themes/hindsite/woocommerce/archive-product.php(36): wc_get_template('archive-ppe.php')
+#2 /Users/sadiehewitt/Dev/hindsite/wp-includes/template-loader.php(106): include('/Users/sadiehew...')
+#3 /Users/sadiehewitt/Dev/hindsite/wp-blog-header.php(19): require_once('/Users/sadiehew...')
+#4 /Users/sadiehewitt/Dev/hindsite/index.php(17): require('/Users/sadiehew...')
+#5 {main}
+  thrown in /Users/sadiehewitt/Dev/hindsite/wp-content/themes/hindsite/woocommerce/archive-ppe.php on line 38
+
+2020-08-24T09:58:11+00:00 CRITICAL Uncaught Error: Object of class WP_Term could not be converted to string in /Users/sadiehewitt/Dev/hindsite/wp-content/themes/hindsite/woocommerce/archive-ppe.php:38
+Stack trace:
+#0 /Users/sadiehewitt/Dev/hindsite/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include()
+#1 /Users/sadiehewitt/Dev/hindsite/wp-content/themes/hindsite/woocommerce/archive-product.php(36): wc_get_template('archive-ppe.php')
+#2 /Users/sadiehewitt/Dev/hindsite/wp-includes/template-loader.php(106): include('/Users/sadiehew...')
+#3 /Users/sadiehewitt/Dev/hindsite/wp-blog-header.php(19): require_once('/Users/sadiehew...')
+#4 /Users/sadiehewitt/Dev/hindsite/index.php(17): require('/Users/sadiehew...')
+#5 {main}
+  thrown in /Users/sadiehewitt/Dev/hindsite/wp-content/themes/hindsite/woocommerce/archive-ppe.php on line 38
+
+2020-08-24T09:58:33+00:00 CRITICAL Uncaught Error: Object of class WP_Term could not be converted to string in /Users/sadiehewitt/Dev/hindsite/wp-content/themes/hindsite/woocommerce/archive-ppe.php:38
+Stack trace:
+#0 /Users/sadiehewitt/Dev/hindsite/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include()
+#1 /Users/sadiehewitt/Dev/hindsite/wp-content/themes/hindsite/woocommerce/archive-product.php(36): wc_get_template('archive-ppe.php')
+#2 /Users/sadiehewitt/Dev/hindsite/wp-includes/template-loader.php(106): include('/Users/sadiehew...')
+#3 /Users/sadiehewitt/Dev/hindsite/wp-blog-header.php(19): require_once('/Users/sadiehew...')
+#4 /Users/sadiehewitt/Dev/hindsite/index.php(17): require('/Users/sadiehew...')
+#5 {main}
+  thrown in /Users/sadiehewitt/Dev/hindsite/wp-content/themes/hindsite/woocommerce/archive-ppe.php on line 38
+
+2020-08-24T09:59:17+00:00 CRITICAL Uncaught Error: Object of class WP_Term could not be converted to string in /Users/sadiehewitt/Dev/hindsite/wp-content/themes/hindsite/woocommerce/archive-ppe.php:38
+Stack trace:
+#0 /Users/sadiehewitt/Dev/hindsite/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include()
+#1 /Users/sadiehewitt/Dev/hindsite/wp-content/themes/hindsite/woocommerce/archive-product.php(36): wc_get_template('archive-ppe.php')
+#2 /Users/sadiehewitt/Dev/hindsite/wp-includes/template-loader.php(106): include('/Users/sadiehew...')
+#3 /Users/sadiehewitt/Dev/hindsite/wp-blog-header.php(19): require_once('/Users/sadiehew...')
+#4 /Users/sadiehewitt/Dev/hindsite/index.php(17): require('/Users/sadiehew...')
+#5 {main}
+  thrown in /Users/sadiehewitt/Dev/hindsite/wp-content/themes/hindsite/woocommerce/archive-ppe.php on line 38
+
+2020-08-24T09:59:27+00:00 CRITICAL Uncaught Error: Object of class WP_Term could not be converted to string in /Users/sadiehewitt/Dev/hindsite/wp-content/themes/hindsite/woocommerce/archive-ppe.php:38
+Stack trace:
+#0 /Users/sadiehewitt/Dev/hindsite/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include()
+#1 /Users/sadiehewitt/Dev/hindsite/wp-content/themes/hindsite/woocommerce/archive-product.php(36): wc_get_template('archive-ppe.php')
+#2 /Users/sadiehewitt/Dev/hindsite/wp-includes/template-loader.php(106): include('/Users/sadiehew...')
+#3 /Users/sadiehewitt/Dev/hindsite/wp-blog-header.php(19): require_once('/Users/sadiehew...')
+#4 /Users/sadiehewitt/Dev/hindsite/index.php(17): require('/Users/sadiehew...')
+#5 {main}
+  thrown in /Users/sadiehewitt/Dev/hindsite/wp-content/themes/hindsite/woocommerce/archive-ppe.php on line 38
+
+2020-08-24T10:16:54+00:00 CRITICAL Uncaught Error: Object of class WP_Term could not be converted to string in /Users/sadiehewitt/Dev/hindsite/wp-content/themes/hindsite/woocommerce/archive-ppe.php:38
+Stack trace:
+#0 /Users/sadiehewitt/Dev/hindsite/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include()
+#1 /Users/sadiehewitt/Dev/hindsite/wp-content/themes/hindsite/woocommerce/archive-product.php(36): wc_get_template('archive-ppe.php')
+#2 /Users/sadiehewitt/Dev/hindsite/wp-includes/template-loader.php(106): include('/Users/sadiehew...')
+#3 /Users/sadiehewitt/Dev/hindsite/wp-blog-header.php(19): require_once('/Users/sadiehew...')
+#4 /Users/sadiehewitt/Dev/hindsite/index.php(17): require('/Users/sadiehew...')
+#5 {main}
+  thrown in /Users/sadiehewitt/Dev/hindsite/wp-content/themes/hindsite/woocommerce/archive-ppe.php on line 38
+
+2020-08-24T10:17:13+00:00 CRITICAL Uncaught Error: Object of class WP_Term could not be converted to string in /Users/sadiehewitt/Dev/hindsite/wp-content/themes/hindsite/woocommerce/archive-ppe.php:38
+Stack trace:
+#0 /Users/sadiehewitt/Dev/hindsite/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include()
+#1 /Users/sadiehewitt/Dev/hindsite/wp-content/themes/hindsite/woocommerce/archive-product.php(36): wc_get_template('archive-ppe.php')
+#2 /Users/sadiehewitt/Dev/hindsite/wp-includes/template-loader.php(106): include('/Users/sadiehew...')
+#3 /Users/sadiehewitt/Dev/hindsite/wp-blog-header.php(19): require_once('/Users/sadiehew...')
+#4 /Users/sadiehewitt/Dev/hindsite/index.php(17): require('/Users/sadiehew...')
+#5 {main}
+  thrown in /Users/sadiehewitt/Dev/hindsite/wp-content/themes/hindsite/woocommerce/archive-ppe.php on line 38
+
+2020-08-24T10:17:33+00:00 CRITICAL Uncaught Error: Object of class WP_Term could not be converted to string in /Users/sadiehewitt/Dev/hindsite/wp-content/themes/hindsite/woocommerce/archive-ppe.php:38
+Stack trace:
+#0 /Users/sadiehewitt/Dev/hindsite/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include()
+#1 /Users/sadiehewitt/Dev/hindsite/wp-content/themes/hindsite/woocommerce/archive-product.php(36): wc_get_template('archive-ppe.php')
+#2 /Users/sadiehewitt/Dev/hindsite/wp-includes/template-loader.php(106): include('/Users/sadiehew...')
+#3 /Users/sadiehewitt/Dev/hindsite/wp-blog-header.php(19): require_once('/Users/sadiehew...')
+#4 /Users/sadiehewitt/Dev/hindsite/index.php(17): require('/Users/sadiehew...')
+#5 {main}
+  thrown in /Users/sadiehewitt/Dev/hindsite/wp-content/themes/hindsite/woocommerce/archive-ppe.php on line 38
+
+2020-08-24T10:17:47+00:00 CRITICAL Uncaught Error: Object of class WP_Term could not be converted to string in /Users/sadiehewitt/Dev/hindsite/wp-content/themes/hindsite/woocommerce/archive-ppe.php:38
+Stack trace:
+#0 /Users/sadiehewitt/Dev/hindsite/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include()
+#1 /Users/sadiehewitt/Dev/hindsite/wp-content/themes/hindsite/woocommerce/archive-product.php(36): wc_get_template('archive-ppe.php')
+#2 /Users/sadiehewitt/Dev/hindsite/wp-includes/template-loader.php(106): include('/Users/sadiehew...')
+#3 /Users/sadiehewitt/Dev/hindsite/wp-blog-header.php(19): require_once('/Users/sadiehew...')
+#4 /Users/sadiehewitt/Dev/hindsite/index.php(17): require('/Users/sadiehew...')
+#5 {main}
+  thrown in /Users/sadiehewitt/Dev/hindsite/wp-content/themes/hindsite/woocommerce/archive-ppe.php on line 38
+
+2020-08-24T10:17:59+00:00 CRITICAL Uncaught Error: Object of class WP_Term could not be converted to string in /Users/sadiehewitt/Dev/hindsite/wp-content/themes/hindsite/woocommerce/archive-ppe.php:38
+Stack trace:
+#0 /Users/sadiehewitt/Dev/hindsite/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include()
+#1 /Users/sadiehewitt/Dev/hindsite/wp-content/themes/hindsite/woocommerce/archive-product.php(36): wc_get_template('archive-ppe.php')
+#2 /Users/sadiehewitt/Dev/hindsite/wp-includes/template-loader.php(106): include('/Users/sadiehew...')
+#3 /Users/sadiehewitt/Dev/hindsite/wp-blog-header.php(19): require_once('/Users/sadiehew...')
+#4 /Users/sadiehewitt/Dev/hindsite/index.php(17): require('/Users/sadiehew...')
+#5 {main}
+  thrown in /Users/sadiehewitt/Dev/hindsite/wp-content/themes/hindsite/woocommerce/archive-ppe.php on line 38
+
+2020-08-24T10:42:51+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in /Users/sadiehewitt/Dev/hindsite/wp-content/themes/hindsite/woocommerce/archive-ppe.php on line 73
+
+2020-08-24T10:44:30+00:00 CRITICAL syntax error, unexpected ''meta_key'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /Users/sadiehewitt/Dev/hindsite/wp-content/themes/hindsite/woocommerce/archive-ppe.php on line 76
+
+2020-08-24T10:47:06+00:00 CRITICAL syntax error, unexpected ',' in /Users/sadiehewitt/Dev/hindsite/wp-content/themes/hindsite/woocommerce/archive-ppe.php on line 80
+
+2020-08-24T11:07:51+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in /Users/sadiehewitt/Dev/hindsite/wp-content/themes/hindsite/woocommerce/archive-ppe.php:66
+Stack trace:
+#0 /Users/sadiehewitt/Dev/hindsite/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include()
+#1 /Users/sadiehewitt/Dev/hindsite/wp-content/themes/hindsite/woocommerce/archive-product.php(36): wc_get_template('archive-ppe.php')
+#2 /Users/sadiehewitt/Dev/hindsite/wp-includes/template-loader.php(106): include('/Users/sadiehew...')
+#3 /Users/sadiehewitt/Dev/hindsite/wp-blog-header.php(19): require_once('/Users/sadiehew...')
+#4 /Users/sadiehewitt/Dev/hindsite/index.php(17): require('/Users/sadiehew...')
+#5 {main}
+  thrown in /Users/sadiehewitt/Dev/hindsite/wp-content/themes/hindsite/woocommerce/archive-ppe.php on line 66
+
+2020-08-24T11:10:14+00:00 CRITICAL syntax error, unexpected '?>' in /Users/sadiehewitt/Dev/hindsite/wp-content/themes/hindsite/woocommerce/archive-ppe.php on line 66
+
+2020-08-24T11:17:43+00:00 CRITICAL syntax error, unexpected 'endwhile' (T_ENDWHILE) in /Users/sadiehewitt/Dev/hindsite/wp-content/themes/hindsite/woocommerce/archive-ppe.php on line 102
+
+2020-08-24T11:19:00+00:00 CRITICAL syntax error, unexpected 'endwhile' (T_ENDWHILE) in /Users/sadiehewitt/Dev/hindsite/wp-content/themes/hindsite/woocommerce/archive-ppe.php on line 98
+
+2020-08-24T11:19:16+00:00 CRITICAL syntax error, unexpected 'endwhile' (T_ENDWHILE) in /Users/sadiehewitt/Dev/hindsite/wp-content/themes/hindsite/woocommerce/archive-ppe.php on line 96
+
+2020-08-24T11:20:01+00:00 CRITICAL syntax error, unexpected 'endwhile' (T_ENDWHILE) in /Users/sadiehewitt/Dev/hindsite/wp-content/themes/hindsite/woocommerce/archive-ppe.php on line 96
+
+2020-08-24T11:22:18+00:00 CRITICAL syntax error, unexpected 'endwhile' (T_ENDWHILE) in /Users/sadiehewitt/Dev/hindsite/wp-content/themes/hindsite/woocommerce/archive-ppe.php on line 98
+

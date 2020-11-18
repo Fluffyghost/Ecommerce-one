@@ -1,0 +1,26 @@
+2020-10-22T10:09:17+00:00 CRITICAL syntax error, unexpected end of file in /home/sites/7b/d/de4743ded0/public_html/typhoon/wp-content/themes/typhoon/archive-stockists.php on line 174
+
+2020-10-22T10:09:20+00:00 CRITICAL syntax error, unexpected end of file in /home/sites/7b/d/de4743ded0/public_html/typhoon/wp-content/themes/typhoon/archive-stockists.php on line 174
+
+2020-10-22T10:13:32+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in /home/sites/7b/d/de4743ded0/public_html/typhoon/wp-content/themes/typhoon/archive-stockists.php on line 60
+
+2020-10-22T10:32:30+00:00 CRITICAL syntax error, unexpected end of file in /home/sites/7b/d/de4743ded0/public_html/typhoon/wp-content/themes/typhoon/archive-stockists.php on line 179
+
+2020-10-22T13:45:49+00:00 CRITICAL syntax error, unexpected '$fragments' (T_VARIABLE), expecting ';' or ',' in /home/sites/7b/d/de4743ded0/public_html/typhoon/wp-content/themes/typhoon/functions.php on line 110
+
+2020-10-22T13:45:51+00:00 CRITICAL syntax error, unexpected '$fragments' (T_VARIABLE), expecting ';' or ',' in /home/sites/7b/d/de4743ded0/public_html/typhoon/wp-content/themes/typhoon/functions.php on line 110
+
+2020-10-22T13:58:02+00:00 CRITICAL Cannot redeclare iconic_cart_count_fragments() (previously declared in /home/sites/7b/d/de4743ded0/public_html/typhoon/wp-content/themes/typhoon/functions.php:108) in /home/sites/7b/d/de4743ded0/public_html/typhoon/wp-content/themes/typhoon/functions.php on line 115
+
+2020-10-22T13:58:02+00:00 CRITICAL Cannot redeclare iconic_cart_count_fragments() (previously declared in /home/sites/7b/d/de4743ded0/public_html/typhoon/wp-content/themes/typhoon/functions.php:108) in /home/sites/7b/d/de4743ded0/public_html/typhoon/wp-content/themes/typhoon/functions.php on line 115
+
+2020-10-22T13:58:04+00:00 CRITICAL Cannot redeclare iconic_cart_count_fragments() (previously declared in /home/sites/7b/d/de4743ded0/public_html/typhoon/wp-content/themes/typhoon/functions.php:108) in /home/sites/7b/d/de4743ded0/public_html/typhoon/wp-content/themes/typhoon/functions.php on line 115
+
+2020-10-22T13:58:21+00:00 CRITICAL Cannot redeclare iconic_cart_count_fragments() (previously declared in /home/sites/7b/d/de4743ded0/public_html/typhoon/wp-content/themes/typhoon/functions.php:108) in /home/sites/7b/d/de4743ded0/public_html/typhoon/wp-content/themes/typhoon/functions.php on line 115
+
+2020-10-22T13:58:25+00:00 CRITICAL Cannot redeclare iconic_cart_count_fragments() (previously declared in /home/sites/7b/d/de4743ded0/public_html/typhoon/wp-content/themes/typhoon/functions.php:108) in /home/sites/7b/d/de4743ded0/public_html/typhoon/wp-content/themes/typhoon/functions.php on line 115
+
+2020-10-22T13:58:27+00:00 CRITICAL Cannot redeclare iconic_cart_count_fragments() (previously declared in /home/sites/7b/d/de4743ded0/public_html/typhoon/wp-content/themes/typhoon/functions.php:108) in /home/sites/7b/d/de4743ded0/public_html/typhoon/wp-content/themes/typhoon/functions.php on line 115
+
+2020-10-22T13:58:30+00:00 CRITICAL Cannot redeclare iconic_cart_count_fragments() (previously declared in /home/sites/7b/d/de4743ded0/public_html/typhoon/wp-content/themes/typhoon/functions.php:108) in /home/sites/7b/d/de4743ded0/public_html/typhoon/wp-content/themes/typhoon/functions.php on line 115
+

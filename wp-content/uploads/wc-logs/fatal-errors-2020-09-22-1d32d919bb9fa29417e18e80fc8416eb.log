@@ -1,0 +1,12 @@
+2020-09-22T13:55:06+00:00 CRITICAL Uncaught Error: Call to undefined function links_footer() in /Users/sadiehewitt/Dev/typhoon/wp-content/themes/typhoon/footer.php:32
+Stack trace:
+#0 /Users/sadiehewitt/Dev/typhoon/wp-includes/template.php(730): require_once()
+#1 /Users/sadiehewitt/Dev/typhoon/wp-includes/template.php(676): load_template('/Users/sadiehew...', true, Array)
+#2 /Users/sadiehewitt/Dev/typhoon/wp-includes/general-template.php(92): locate_template(Array, true, true, Array)
+#3 /Users/sadiehewitt/Dev/typhoon/wp-content/themes/typhoon/templates/home.php(160): get_footer()
+#4 /Users/sadiehewitt/Dev/typhoon/wp-includes/template-loader.php(106): include('/Users/sadiehew...')
+#5 /Users/sadiehewitt/Dev/typhoon/wp-blog-header.php(19): require_once('/Users/sadiehew...')
+#6 /Users/sadiehewitt/Dev/typhoon/index.php(17): require('/Users/sadiehew...')
+#7 {main}
+  thrown in /Users/sadiehewitt/Dev/typhoon/wp-content/themes/typhoon/footer.php on line 32
+

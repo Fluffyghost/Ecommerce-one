@@ -1,0 +1,70 @@
+#cookie-bar {background: #0C6D75; padding: 30px;}
+#cookie-bar.fixed {position:fixed; top:0; left:0; width:100%;}
+#cookie-bar.fixed.bottom {bottom:0; top:auto;}
+#cookie-bar p {margin:0; padding:0; width: 100%; color: #ffffff; font-size: 16px; }
+#cookie-bar a {color: #ffffff; display:inline-block; padding:0 6px;}
+#cookie-bar .cb-enable {
+  background: #FF434A;
+  color: #ffffff;
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #FF434A;
+  transition: 0.2s ease-out;
+  font-size: 18px;
+  height: 61px;
+  padding: 22px 30px;
+  width: auto;
+  display: flex;
+  position: absolute;
+  right: 30px;
+  bottom: 15px;
+  border-radius: 0.3em;
+}
+#cookie-bar .cb-enable:hover {
+  background-color: rgba(255, 67, 74, 0.7) !important;
+  color: white;
+}
+#cookie-bar .cb-enable:hover {background: transparent;}
+/* #cookie-bar .cb-disable {background:#990000;} */
+/* #cookie-bar .cb-disable:hover {background:#bb0000;} */
+#cookie-bar .cb-policy {background:#0033bb;}
+#cookie-bar .cb-policy:hover {background:#0055dd;}
+
+#cookie-bar .cb-disable {
+  position: absolute;
+  right: 220px;
+  color: white;
+}
+
+/* @media only screen and (max-width: 1220px) {
+  #cookie-bar .cb-enable, #cookie-bar .cb-disable { width: auto; }
+} */
+
+@media only screen and (max-width: 1110px) {
+  #cookie-bar .cb-enable { position: static; margin-top: 20px; }
+  /* #cookie-bar .cb-disable { position: static; text-decoration: underline; margin-top: 20px; } */
+  #cookie-bar .cb-disable {
+    background: #F2C828 !important;
+    color: #0C6D75;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #F2C828;
+    transition: 0.2s ease-out;
+    font-size: 18px;
+    height: 61px;
+    padding: 22px 30px;
+    width: auto;
+    display: flex;
+    border-radius: 0.3em;
+    margin-top: 20px;
+    position: static;
+  }
+  #cookie-bar .cb-disable:hover {
+    background: rgba(242, 200, 40, 0.7) !important;
+  }
+}
+@media only screen and (max-width: 600px) {
+  #cookie-bar .cb-enable, #cookie-bar .cb-disable { width: 100%; }
+}

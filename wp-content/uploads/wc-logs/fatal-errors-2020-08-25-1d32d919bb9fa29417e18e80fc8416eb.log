@@ -1,0 +1,6 @@
+2020-08-25T09:16:46+00:00 CRITICAL syntax error, unexpected ',' in /Users/sadiehewitt/Dev/hindsite/wp-content/themes/hindsite/woocommerce/single-product/add-to-cart/variable.php on line 54
+
+2020-08-25T09:17:46+00:00 CRITICAL syntax error, unexpected '.', expecting ')' in /Users/sadiehewitt/Dev/hindsite/wp-content/themes/hindsite/woocommerce/single-product/add-to-cart/variable.php on line 54
+
+2020-08-25T10:47:15+00:00 CRITICAL syntax error, unexpected '}', expecting ';' or ',' in /Users/sadiehewitt/Dev/hindsite/wp-content/themes/hindsite/woocommerce/single-product/price.php on line 31
+
